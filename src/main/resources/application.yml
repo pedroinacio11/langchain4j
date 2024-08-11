@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: demo-lang-chain4j
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: ${OPENAI_API_KEY}
+      model-name: gpt-4o
+      log-requests: true
+      log-responses: true
+
+
